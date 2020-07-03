@@ -47,7 +47,7 @@ Tjis project will give you device unique ID , current position, wifi connected i
     ```javascript
     import nativeCalls from 'rn-device-information'; 
     ```
-
+    ```Example```
     ```javascript
     import React, { useState, useEffect } from 'react';
     import {
