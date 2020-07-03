@@ -41,7 +41,7 @@ This project will give you device unique ID , current position, wifi connected i
             }
         }
         ```
-4. Simply `import/require` it by the name defined in your library's `package.json`:
+4. Simply `import` it by the name defined in your library's `package.json`:
 
     ```javascript
     import nativeCalls from 'rn-device-information'; 
