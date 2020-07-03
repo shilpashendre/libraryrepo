@@ -1,5 +1,5 @@
-## React Native Library Device Information
-Tjis project will give you device unique ID , current position, wifi connected information, available wifi connection.
+## React Native Library for Device Information
+This project will give you device unique ID , current position, wifi connected information, available wifi connection.
 ## Getting started
   
 
@@ -10,7 +10,7 @@ Tjis project will give you device unique ID , current position, wifi connected i
 	yarn add rn-device-information
 	
  1. Manually Linking the Library:
-    * Android
+    ##  Android
     * Add the following to `android/settings.gradle`:
         ```
         include ':rn-device-information'
@@ -19,8 +19,7 @@ Tjis project will give you device unique ID , current position, wifi connected i
 
     * Add the following to `android/app/build.gradle`:
         ```xml
-        ...
-
+       
         dependencies {
             ...
             implementation project(':rn-device-information')
