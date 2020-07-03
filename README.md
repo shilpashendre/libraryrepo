@@ -10,7 +10,8 @@ Tjis project will give you device unique ID , current position, wifi connected i
 		or
 	yarn add rn-device-information
 	
- 1. Link the library:
+ 1. Manually Linking the Library:
+    * Android
     * Add the following to `android/settings.gradle`:
         ```
         include ':rn-device-information'
