@@ -1,7 +1,6 @@
-## React Native Android Library Device Information
+## React Native Library Device Information
 Tjis project will give you device unique ID , current position, wifi connected information, available wifi connection.
 ## Getting started
- 
   
 
 ## Installing it as a library in your main project
