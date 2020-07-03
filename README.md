@@ -23,14 +23,13 @@ Tjis project will give you device unique ID , current position, wifi connected i
 
         dependencies {
             ...
-            compile project(':rn-device-information')
+            implementation project(':rn-device-information')
         }
         ```
     * Add the following to `android/app/src/main/java/**/MainApplication.java`:
         ```java
-        package com.motivation;
-
-        import  package com.example.mylibrary.Package;
+        
+        import com.example.mylibrary.Package;
 
         public class MainApplication extends Application implements ReactApplication {
 
@@ -47,9 +46,9 @@ Tjis project will give you device unique ID , current position, wifi connected i
 
     ```javascript
     import nativeCalls from 'rn-device-information'; 
-
-EXAMPLE HERE****************************
     ```
+
+    ```javascript
     import React, { useState, useEffect } from 'react';
     import {
         ScrollView,
@@ -207,4 +206,4 @@ EXAMPLE HERE****************************
 
     export default App;
 
- ```
+   ```
